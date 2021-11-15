@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* needed css*/
+.regular-width{
+    width: 800px;
+    margin: auto;
+}
+.clearfix:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* header css*/
+
+.header{
+    background: #1abc9c;
+}
+.headerleft{
+   float: left;
+   width: 30%;
+}
+.headerleft img{
+    width: 150px;
+    height: auto;
+}
+
+.headerright{
+    float: right;
+    width: 70%;
+}
+.headerright ul{
+    text-align: right;
+}
+.headerright ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: -4px;
+}
+.headerright ul li a{
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 65px;
+    border-right: 1px solid #dddddd;
+    transition: .5s;
+}
+.headerright ul li a:hover{
+    background: #16a085;
+}
+
+/* banner css*/
+
+
+.banner{
+}
+.banner-content{
+     background: url(./img/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner-content h1{
+        background: rgb(73, 70, 70);
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        padding: 20px 10px;
+        border-radius: 5px;
+        margin-top: 150px;
+}
+.banner-content h2{
+    background: rgb(88, 88, 202);
+    color: white;
+    font-size: 25px;
+    padding: 10px 5px;
+    max-width: 220px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+
+/*about css*/
+.about{
+     margin-top: 30px;
+}
+.about h1{
+        font-size: 50px;
+        border-bottom: 2px solid black;
+}
+.about p{
+       font-size: 20px;
+       margin-top: 15px;
+}
+
+/* service css*/
+
+.service{
+    margin-top: 30px;
+}
+.service-content{
+   float: left;
+   width: 31.3%;
+   border: 1px solid black;
+   box-sizing: border-box;
+   padding: 30px 10px;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+.service-content span{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background: rgb(67, 67, 243);
+   color: white;
+   font-size: 30px;
+   line-height: 50px;
+   border-radius: 0 20px 0 20px;
+
+
+}
+.service-content h3{
+       margin-top: 10px;
+       font-size: 25px;
+}
+.service-content p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* container css*/
+.container{
+    margin-top: 30px;
+}
+.containerleft{
+    float: left;
+    width: 70%;
+}
+.item{
+    margin-bottom: 15px;
+}
+.item img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right:10px;
+}
+.item p{
+
+}
+.containerright{
+   float: right;
+   width: 25%;
+}
+.containerright h1{
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+.noticeitem{
+    margin-top: 10px;
+}
+.noticeitem ul{
+    list-style: none;
+    text-align: center;
+}
+.noticeitem ul li{
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+
+/* footer css*/
+
+.footer{
+     background: #34495e;
+     margin-top: 30px;
+}
+.footerleft{
+    float: left;
+    width: 50%;
+}
+.footerleft p{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.footerright{
+   float: right;
+   width: 50%;
+}
+.socialicon{
+    text-align: right;
+    list-style: none;
+}
+.socialicon li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.socialicon li a{
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    line-height: 30px;
+}
+.socialicon li a:hover{
+    background: #2c3e50;
+}
